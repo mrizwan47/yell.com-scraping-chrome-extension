@@ -1,0 +1,15 @@
+{
+	"name": "Yell.com Scraper",
+	"description": "Extracts listings from yell.com",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": ["storage", "contextMenus", "activeTab", "scripting"],
+	"host_permissions": [
+		"*://yell.com/*"
+	],
+	"action": {
+		"default_popup": "popup.html",
+		"default_title": "Scrape Yell.com"
+	}
+}
+  
